@@ -639,7 +639,7 @@ export default function App() {
   }
 
   return (
-    <div style={{minHeight:'100vh',background:'#0d1117',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:"'DM Sans',sans-serif"}}>
+   <div style={{minHeight:'100vh',width:'100vw',background:'#0d1117',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:"'DM Sans',sans-serif",position:'fixed',top:0,left:0}}>
       <style>{`@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');`}</style>
       <div style={{background:'#161b22',border:'1px solid #30363d',borderRadius:20,padding:'44px 42px',width:400,boxShadow:'0 24px 80px rgba(0,0,0,.6)'}}>
         <div style={{fontFamily:"'Syne',sans-serif",fontWeight:800,fontSize:32,marginBottom:6}}>Team</div>
